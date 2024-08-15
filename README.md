@@ -9,3 +9,4 @@ Secondary Color: #FFABAB
 Page Background Color: #F7F9F9
 Text Color: #333333
 
+![A picture of my Color Palette with Hex Codes](ColorPalette.pdf)
