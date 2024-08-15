@@ -1,3 +1,4 @@
 # proposal-profile
 Proposal repository
-Potatoes
+
+![An image of my first ever Wireframe](Wireframe1.jpg)
