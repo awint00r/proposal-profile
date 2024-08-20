@@ -3,29 +3,31 @@
     <meta charset="UTF-8"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Adoption Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <!--Header Section-->
 <header>
-    <div>
-        <img src ="Logo.jpg" alt="Animal Adoption Company Logo"
+    <div class="TopLogo">
+        <img src ="Logo.jpg" alt="Animal Adoption Company Logo">
     </div>
-    <nav>
-        <ul>
+    <nav class="navbar1">
+        <ul class="navbar1">
             <li><a href="#Home">Home</a></li>
             <li><a href="#Search">Search</a></li>
             <li><a href="#FAQ">FAQ</a></li>
-            <li><a href="About">About</a></li>
-            
+            <li><a href="#About">About</a></li>
+            <a class="SignIn" href="#Sign In">Sign In</a>
         </ul>
     </nav>
-    <div>
-        <a href="#Sign In">Sign In</a>
-    </div>
 </header>
 <main>
+    <div>
     <h1>Animal Name</h1>
-    <section id="Characteristics">
+    <figure class="AnimalPhoto">
+        <img src="PhotoOfAnimal.jpg" alt="A photo of a dog looking up with a sad face.">
+    </figure>
+    <section class="Characteristics">
         <article>
             <h2>Animal Characteristics</h2>
             <p>Eye Color:</p>
@@ -35,23 +37,21 @@
             <p>Est. Birthday:</p>
             <p>Location:</p>
         </article>
-        <figure>
-            <img src="PhotoOfAnimal.jpg" alt="A photo of a dog looking up with a sad face."
-        </figure>
     </section>
-    <details>
-        <summary>Learn About Me</summary>
-        <p>Brief Description here that discusses the animal play type, how well they interact with children and other people, health issues, etc...</p>
-    </details>
-    <!--Buttons that can be clicked-->
-    <section id="Buttons">
+    </div>
+    <div class="Info">
+        <details>
+            <summary>Learn About Me</summary>
+            <p>Brief Description here that discusses the animal play type, how well they interact with children and other people, health issues, etc...</p>
+        </details>
+    </div>
+     <!--Buttons that can be clicked-->
+     <section class="Buttons">
         <button>Donate</button>
-        <button>Adopt Me</button>
         <button>See Other Animals</button>
-    </section>
+        <button>Adopt Me</button>
+    </section>    
 </main>
-<!--Added break here for better visibility in preview, but will use CSS and padding to create gap as needed.-->
-<br>
 <!--Footer Is Here-->
 <footer>
     <address>
@@ -60,16 +60,16 @@
         <b>Phone Number:</b><a href="tel:1234567890">123-456-7890</a>
     </address>
     <nav>
-        <ul>
+        <ul class="navbar2">
             <li><a href="#Home">Home</a></li>
             <li><a href="#Search">Search</a></li>
             <li><a href="#FAQ">FAQ</a></li>
-            <li><a href="About">About</a></li>
+            <li><a href="#About">About</a></li>
         </ul>
     </nav>
-    <div>
-        <img src ="Logo.jpg" alt="Animal Adoption Company Logo"
+    <div class="BottomLogo">
+        <img src ="Logo.jpg" alt="Animal Adoption Company Logo">
     </div>
-</footer>
+</footer>    
 </body>
 </html>
