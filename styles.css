@@ -107,6 +107,29 @@ details p {
     font-size: 24px;
     margin: 20px;
 }
+.Buttons #Button1::before {
+    content: "\f0d6";
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    position: relative;
+    left: -5px;
+}
+.Buttons #Button1::after {
+    content: "\f0d6";
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    position: relative;
+    right: -5px;
+}
+
 .Info {
     background-color: #FF6F61;
     padding: 20px;
