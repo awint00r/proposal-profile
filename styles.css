@@ -87,6 +87,7 @@ h1 {
 details summary {
     color:#333333;
     font-weight: bold;
+    font-size: 24px;
 }
 details p {
     padding: 10px;
@@ -103,7 +104,7 @@ details p {
     background-color:#FFABAB;
     color:#333333;
     margin-right: 20px;
-    padding: 10px 20px;
+    padding: 30px 60px;
     font-size: 24px;
     margin: 20px;
 }
@@ -112,8 +113,6 @@ details p {
     font-family: Font Awesome 5 Free;
     font-weight: 900;
     display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
     font: var(--fa-font-solid);
     position: relative;
     left: -5px;
@@ -123,8 +122,33 @@ details p {
     font-family: Font Awesome 5 Free;
     font-weight: 900;
     display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    position: relative;
+    right: -5px;
+}
+.Buttons #Button2::after {
+    content: "\f061";
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    display: inline-block;
+    font: var(--fa-font-solid);
+    position: relative;
+    right: -5px;
+}
+.Buttons #Button3::before {
+    content: "\f6d3";
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    display: inline-block;
+    font: var(--fa-font-solid);
+    position: relative;
+    left: -5px;
+}
+.Buttons #Button3::after {
+    content: "\f6be";
+    font-family: Font Awesome 5 Free;
+    font-weight: 900;
+    display: inline-block;
     font: var(--fa-font-solid);
     position: relative;
     right: -5px;
