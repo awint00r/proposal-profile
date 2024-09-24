@@ -1,17 +1,22 @@
 main {
     background-color: #F7F9F9;
+    padding: 0px;
+    margin:0px;
+    text-align: center;
 }
 body {
-    background-color: #F7F9F9;
+    /* background-color: #F7F9F9; */
     color: #333333;
     margin: 0;
-    padding: 0;
+    padding: 2px;
+    
 }
 header {
     background-color: #FF6F61;
     text-align: center;
     height: 20px;
     padding: 20px;
+    position: relative;
 }
 .TopLogo {
     position:absolute;
@@ -31,6 +36,7 @@ header {
 .navbar1 li {
     display: inline;
     margin-right: 50px;
+    font-weight: bold;
 }
 .navbar1 a {
     color: #333333;
@@ -39,17 +45,14 @@ header {
 .SignIn {
     float: right;
     margin-right: 10px;
+    font-weight: bold;
 }
 .SignIn a {
     color: #333333;
     text-decoration: none;
 
 }
-main {
-    padding: 0px;
-    margin:0;
-    text-align: center;
-}
+
 h1 {
     background-color: #FFABAB;
     color: #333333;
@@ -69,6 +72,7 @@ h1 {
     box-sizing: border-box;
     margin-bottom: 0px;
     height: 100%;
+    min-height: 100%;
 }
 .H2Container {
     text-align: center;
@@ -101,7 +105,7 @@ details summary {
     font-size: 24px;
 }
 details p {
-    padding: 10px;
+    padding: 30px;
     background-color:#FFABAB;
     margin-bottom: 50px;
 }
@@ -174,6 +178,7 @@ details p {
 footer {
     background-color: #FFABAB;
     margin: 0px;
+    position: relative;
 }
 .navbar2 {
     padding: 0;
@@ -204,10 +209,21 @@ footer address {
     background-color:#333333;
     color: #F7F9F9;
     text-decoration: none;
-    padding: 1px;
+    padding: 2px;
 }
 .copyright a, .copywright p {
     color:#F7F9F9;
     text-decoration: none;  
     margin: 0px;
+}
+.bottomLogo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.bottomLogo img {
+    vertical-align: bottom;
+}
 }
